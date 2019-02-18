@@ -5,7 +5,7 @@ import urllib
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 
-TOKEN = '743435818:AAHGCFPvVzwrFFy1FAwXMZOfLs7n4yHbF2k'
+TOKEN = 'Your Token'
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 def get_url(url):
